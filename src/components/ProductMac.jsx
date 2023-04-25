@@ -1,4 +1,4 @@
-const  PRODUCTS_MAC = [
+const  PRODUCTSMAC = [
   {
     // href: "https://store.storeimages.cdn-apple.com/8567/as-images.apple.com/is/macbook-air-midnight-select-20220606?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1653084303665",
     title: "MacBook Air",
@@ -16,10 +16,10 @@ const  PRODUCTS_MAC = [
   }
 ]
 
-export function Product_Mac() {
+export function ProductMac() {
   return (
     <>
-    {PRODUCTS_MAC.map((product) => {
+    {PRODUCTSMAC.map((product) => {
       return (
         <div  key={product.title}>
           <div class="px-4 py-4 shadow-lg shadow-gray-300 rounded-2x">

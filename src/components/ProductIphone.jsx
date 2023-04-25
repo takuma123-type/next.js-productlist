@@ -1,4 +1,4 @@
-const PRODUCTS_IPHONE = [
+const PRODUCTSIPHONE = [
   {
     // image: "https://store.storeimages.cdn-apple.com/8567/as-images.apple.com/is/macbook-air-midnight-select-20220606?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1653084303665",
     title: "iPhone13Pro",
@@ -16,10 +16,10 @@ const PRODUCTS_IPHONE = [
   }
 ]
 
-export function Product_Iphone() {
+export function ProductIphone() {
   return (
     <>
-    {PRODUCTS_IPHONE.map((product) => {
+    {PRODUCTSIPHONE.map((product) => {
       return (
         <div  key={product.title}>
           <div class="px-4 py-4 shadow-lg shadow-gray-300 rounded-2x">
